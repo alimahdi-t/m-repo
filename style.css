@@ -79,7 +79,27 @@
 
 .section-3 .d1 {
   background-color: #00d170;
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px;
+  flex-direction: column;
+  gap: 28px;
 }
+
+.section-3 .d1 h1 {
+  font-size: 40px;
+  color: white;
+  text-align: end;
+  font-weight: 700;
+}
+
+.section-3 .d1 p {
+  font-size: 20px;
+  color: white;
+  text-align: end;
+  font-weight: 600;
+}
+
 .section-3 .d2 {
   background-color: black;
 }
