@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .section-1 {
   width: 100%;
   padding: 16px 32px;
@@ -25,6 +30,7 @@
   text-decoration: none;
 }
 .section-2 {
+  margin-top: 120px;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -63,4 +69,17 @@
 .btn-5 {
   background-color: black;
   color: white;
+}
+
+.section-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 600px;
+}
+
+.section-3 .d1 {
+  background-color: #00d170;
+}
+.section-3 .d2 {
+  background-color: black;
 }
